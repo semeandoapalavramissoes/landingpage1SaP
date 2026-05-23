@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-display: "Playfair Display", serif;
+    --font-body: "Source Sans 3", sans-serif;
+
+    /* Cores com melhor contraste para acessibilidade */
+    --primary: hsl(36 80% 50%);
+    --gold: hsl(45 90% 55%);
+    --secondary: hsl(220 25% 20%);
+    --background: hsl(40 33% 97%);
+    --foreground: hsl(220 30% 15%);
+    --muted: hsl(40 20% 90%);
+    --card: hsl(40 30% 95%);
+    --warm: hsl(30 40% 92%);
+    --earth: hsl(25 35% 35%);
+  }
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: hsl(40 33% 97%);
+  color: hsl(220 30% 15%);
+}
+
+h1, h2, h3, .display {
+  font-family: var(--font-display);
+}
+
+/* Melhoria de contraste para textos sobre fundos claros */
+.text-primary { color: hsl(36 80% 45%); }     /* um pouco mais escuro */
+.text-gold { color: hsl(45 90% 45%); }
+
+/* Garantia de contraste mínimo em botões */
+.bg-gold {
+  color: hsl(220 30% 15%) !important; /* texto escuro sobre dourado */
+}
+
+.bg-primary {
+  color: white !important;
+}
