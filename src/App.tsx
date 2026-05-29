@@ -163,7 +163,7 @@ function App() {
         </section>
 
         <footer className="py-16 text-center text-muted-foreground border-t bg-white">
-          © 2026 Semeando a Palavra • Construído com fé e excelência técnica
+          © Semeando a Palavra • Cristo conhecido entre todos os povos.
         </footer>
       </div>
     </Router>
