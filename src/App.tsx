@@ -41,8 +41,8 @@ function App() {
             </h1>
             
             <p className="max-w-2xl mx-auto text-xl text-white/90 mb-12">
-              Um ministério dedicado a levar o Evangelho de Jesus Cristo a povos e nações que ainda não o conhecem, 
-              através de projetos práticos, discipulado e transmissões ao vivo.
+              Um projeto missionário dedicado a levar o Evangelho de Jesus Cristo aos povos menos alcançados e às nações que ainda não O conhecem, 
+              através de missionários que dedicam suas vidas para tornar Cristo conhecido entre todos os povos.
             </p>
 
             {/* Botões grandes + "Sobre Nós" ao lado */}
@@ -78,21 +78,29 @@ function App() {
             <div className="text-center mb-16">
               <h2 className="text-5xl font-display font-semibold mb-6">Quem Somos</h2>
               <p className="text-2xl text-muted-foreground leading-relaxed">
-                Semeando a Palavra é um ministério missionário cristão que atua em várias nações, 
-                levando não apenas a mensagem do Evangelho, mas também amor prático através de educação, 
-                saúde, água potável e discipulado de líderes locais.
+                O Projeto Missionário Semeando a Palavra nasceu com a missão de apoiar missionários 
+                que estão no campo, dedicando suas vidas à propagação do 
+                Evangelho de Jesus Cristo através da evangelização,
+                 discipulado e ações de amor prático.
+
               </p>
             </div>
 
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-8 text-justify">
               <p>
-                Nossa visão é ver vidas transformadas pelo poder de Jesus Cristo em todos os cantos da Terra. 
-                Trabalhamos lado a lado com igrejas locais, treinamos líderes e apoiamos missionários no campo.
-              </p>
+                Além de anunciar a Palavra de Deus,
+                 o projeto também atua no cuidado social, contribuindo com
+                  a alimentação de crianças e apoiando ações desenvolvidas em bases missionárias, 
+                levando esperança, cuidado e transformação para muitas famílias.  </p>
               <p>
-                Acreditamos que a Grande Comissão não é apenas uma ordem, mas uma chamada diária para cada um de nós. 
-                Por isso, convidamos você a fazer parte dessa história — seja através de oração, compartilhamento ou contribuição financeira.
-              </p>
+                O Semeando a Palavra tem como propósito fortalecer a obra missionária, levantando mantenedores e parceiros que adotem missionários em campo por meio de contribuições mensais, ajudando na continuidade do trabalho missionário 
+                e no sustento de crianças atendidas pelos 
+                projetos sociais nas bases missionárias. </p>
+                <p> Cremos que cada semente plantada através da oração, contribuição e 
+                  evangelização pode alcançar vidas e transformar nações. Por isso, 
+                  o Projeto Missionário Semeando a Palavra existe com o propósito de semear
+                   a Palavra de Deus até tornar Cristo conhecido entre todos os povos.
+                   </p>
             </div>
           </div>
         </section>
@@ -106,7 +114,7 @@ function App() {
                 <span className="font-semibold tracking-widest">{isLive ? "AO VIVO AGORA" : "TV SEMEANDO A PALAVRA"}</span>
               </div>
               <h2 className="text-5xl font-display font-semibold text-foreground mb-4">Semeando ao Vivo</h2>
-              <p className="text-muted-foreground text-lg">Cultos, orações e mensagens missionárias em tempo real</p>
+              <p className="text-muted-foreground text-lg">Programações sendo transmitidas abaixo</p>
             </div>
 
             <div className="bg-white rounded-3xl shadow-card overflow-hidden">
