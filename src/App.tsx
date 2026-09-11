@@ -6,7 +6,7 @@ import logo from "./assets/logo.png";
 
 function App() {
   // Links configuráveis
-  const youtubeLiveUrl = "https://www.youtube.com/embed/8LBC2GGvyHk?si=81p0N7_bkBu1jqKX";
+  const youtubeLiveUrl = "https://www.youtube.com/embed/xYU6tZmcS0M?si=KEChIAGdqFF9o6OP";
   const donationLink = "https://link.mercadopago.com.br/missemeandoapalavra";
 
   const getYoutubeId = (url: string) => {
